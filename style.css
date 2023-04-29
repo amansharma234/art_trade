@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+}
+section{
+  padding: 0 0 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);   
+}
+a:hover{
+  color: rgb(31, 156, 0);
+}
+
+
+/* ------- Header starts -----------*/
+.header{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    box-shadow:
+  0px 3.9px 1.3px rgba(0, 0, 0, 0.32),
+  0px 8.5px 3.1px rgba(0, 0, 0, 0.144),
+  0px 14.7px 5.9px rgba(0, 0, 0, 0.129),
+  0px 24.2px 11.6px rgba(0, 0, 0, 0.154),
+  0px 42.5px 25.7px rgba(0, 0, 0, 0.181),
+  0px 100px 64px rgba(0, 0, 0, 0.17)
+;
+    
+
+}
+.nav1{
+    padding: 1rem;    
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+.logo{
+    padding: 0 10rem 0 14rem;    
+}
+
+.logo img{
+  height: 6rem;
+  width: 15rem;
+}
+
+.register{
+    padding: 0 0 0 10rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{
+  padding: 2rem;
+  display: flex;
+}
+
+
+/* --------------------------- Hero starts --------------------------------*/
+
+.hero{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.hero img{
+  border-radius: 31% 69% 0% 100% / 71% 0% 100% 29% ;
+
+}
+
+.sub-msg{
+  color:rgb(31, 156, 0) ;
+  font-weight:bolder;
+
+}
+
+.myButton {
+	background-color:rgb(31, 156, 0) ;
+	border-radius:22px;
+	border:1px solid rgb(31, 156, 0) ;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 18px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* --------------------------- Hero starts ends--------------------------------*/
+
+
+
+
+
+
+/* ---------------------------- Nav-intro section starts ----------------------*/
+
+
+.intro{
+    padding: 10rem 4rem 10rem 4rem;
+    text-align: center;
+    background-color: rgba(31, 156, 0, 0.084);
+    
+}
+
+.msgs{
+    font-size: 4rem; 
+    font-weight:bolder;    
+
+}
+
+.myButton-2 {
+	background-color:rgb(31, 156, 0);
+	border-radius:22px;
+	border:1px solid rgb(31, 156, 0);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:15px 31px;
+	text-decoration:none;
+}
+.myButton-2:hover {
+	background-color:#5cbf2a;
+}
+.myButton-2:active {
+	position:relative;
+	top:1px;
+}
+
+/* ---------------------------- Nav-intro section ends ----------------------*/
+
+
+/* --------------------------- about section starts --------------------------*/
+.about{
+  text-align: center;
+  background-color:rgba(31, 156, 0, 0.066) ;
+}
+
+.contnt{
+    display: flex;
+    text-align: left;
+}
+
+.box1{
+  display: flex;
+  margin: 1rem;
+  padding: 2rem;
+}
+.box1 i{
+  font-size: 3rem;
+  
+}
+.box2{
+  margin: 1rem;
+}
+
+/* --------------------------- about section ends --------------------------*/
+
+
+/* --------------------------- follow section starts --------------------------  */
+
+.follow{
+  background-color:rgba(31, 156, 0, 0.066) ;
+  display: flex;
+}
+.follow img{
+  border-radius: 48% 52% 0% 100% / 34% 12% 88% 66% ;
+  box-shadow:
+  0px 3.9px 1.3px rgba(0, 0, 0, 0.32),
+  0px 8.5px 3.1px rgba(0, 0, 0, 0.144),
+  0px 14.7px 5.9px rgba(0, 0, 0, 0.129),
+  0px 24.2px 11.6px rgba(0, 0, 0, 0.154),
+  0px 42.5px 25.7px rgba(0, 0, 0, 0.181),
+  0px 100px 64px rgba(0, 0, 0, 0.17);
+}
+
+.follow .main{
+  margin: 2rem;
+  padding: 6rem 0 0 0;
+}
+/* --------------------------- follow section ends --------------------------  */
+
+
+
+/* <!-------------------- FAQS section------------------------> */
+
+.FAQS{
+  background-color:rgba(31, 156, 0, 0.066) ;
+  padding: 2rem 0 4rem 0;
+}
+.main-hero{
+    display:flex;
+    padding: 2rem 0 0 0 ;
+    /* width:70rem ; */
+}
+
+
+
+.faqcontain {
+    width: 55rem;
+   
+ }
+ 
+ .faqcontain h2 {
+   
+   position: relative;
+   width: 24rem;
+ }
+ 
+ .faqcontain h2::after {
+   position: absolute;
+   content: "";
+   bottom: 0;
+   right: 12px;
+   width: 67px;
+   height: 2px;
+
+ }
+ 
+ .accordion {
+   width: 98%;
+   padding: 0 5px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid rgb(0, 0, 0);
+   cursor: pointer;
+   
+   display: flex;
+   margin: 10px 0;
+   align-items: center;
+ }
+ 
+ .accordion .icon {
+   margin: 0 10px 0 0;
+   width: 30px;
+   height: 30px;
+   background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+     no-repeat 8px 7px rgb(31, 156, 0);
+   border-radius: 50%;
+   float: left;
+   transition: all 0.5s ease-in;
+ }
+ 
+ .accordion h5 {
+   font-size: 22px;
+   margin: 0;
+   padding: 3px 0 0 0;
+   font-weight: normal;
+   
+ }
+ 
+ .active {
+   background-color: rgb(255, 255, 255);
+   
+ }
+ 
+ .active .icon {
+   background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+     no-repeat 8px -25px rgb(31, 156, 0);
+ }
+ 
+ .faqpanel {
+   padding: 0 15px;
+   border-left: 2px solid rgb(31, 156, 0);
+   margin-left: 25px;
+   font-size: 14px;
+   text-align: justify;
+   overflow: hidden;
+   max-height: 0;
+   transition: all 0.3s ease-in;
+ }
+/* <!-------------------- FAQS section------------------------> */
+
+
+/* --------------------------- sign-in page starts --------------------------*/
+
+.form{
+  margin: 2rem;  
+  width: 50%;
+}
+
+.form .box3{
+  width: 20rem;
+  height: 2rem;
+  margin: 1rem 0 1rem 0;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
+/* --------------------------- sign-in page  ends--------------------------*/
+
+
+
+
+/*-------------------- footer  ----------------------------*/
+.footer{  
+  box-shadow:
+  0px -4.3px 16.2px rgba(0, 0, 0, 0.07),
+  0px -7.9px 27.7px rgba(0, 0, 0, 0.086),
+  0px -9.6px 35px rgba(0, 0, 0, 0.099),
+  0px -8px 43.7px rgba(0, 0, 0, 0.107),
+  0px 0.4px 58.9px rgba(0, 0, 0, 0.107),
+  0px 37px 80px rgba(0, 0, 0, 0.093)
+;
+}
+
+.footer-box{
+  width: 50rem;
+
+}
+
+.list-one{
+  list-style: none;    
+}
+
+.footlink{
+  padding: 0.5rem;
+  font-weight:bolder;
+}
+
+
+/*-------------------- footer  ----------------------------*/

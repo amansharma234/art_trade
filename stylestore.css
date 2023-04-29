@@ -1,0 +1,144 @@
+.back{
+  background-color: rgba(31, 156, 0, 0.146);
+}
+
+.img-slider img {
+  height: 720px;
+  width: 1080px;
+}
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  15% {
+    left: 0px;
+  }
+  20% {
+    left: -1080px;
+  }
+  32% {
+    left: -1080px;
+  }
+  35% {
+    left: -2160px;
+  }
+  47% {
+    left: -2160px;
+  }
+  50% {
+    left: -3240px;
+  }
+  63% {
+    left: -3240px;
+  }
+  66% {
+    left: -4320px;
+  }
+  79% {
+    left: -4320px;
+  }
+  82% {
+    left: -5400px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.img-slider {
+  display: flex;
+  float: left;
+  position: relative;
+  width: 70rem;
+  height: 30rem;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transition-duration: 2s;
+}
+
+  .heading1 {
+    opacity: 0;
+  }
+  .search {
+    display: flex;
+    position: relative;
+  }
+  .section1 {
+    width: 920px;
+    overflow: hidden;
+    border: 2px solid black;  
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 10px;
+  }
+
+  .section2 .container {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+  }
+  .section2 .container .items {
+    margin: 10px;
+    width: 200px;
+    height: 350px;
+    /* background-color: white; */
+    border: 1px solid black;
+    /* border-radius: 12px; */
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  27px 27px 54px #7b7b7b,
+             -27px -27px 54px #ffffff;
+  }
+  .section2 .container .items .name {
+    text-align: center;
+    background-color: white;
+    height: 25px;
+    padding-top: 4px;
+    color: rgb(97, 97, 97);
+    margin: 0;
+  }
+  .section2 .container .items .price {
+    /* float: left; */
+    /* padding-left: 10px; */
+    display: block;
+    text-align: center;
+    width: 12.5rem;
+    color: black;
+    background-color: white;
+    font-weight: 650;
+  }
+  .section2 .container .items .info {
+    padding-left: 10px;
+    color: black;
+  }
+  .section2 .container .items .img img {
+    width: 200px;
+    height: 230px;
+    margin: 0;
+    padding: 2px;
+    border-radius: 12px;
+    transition-duration: 0.8s;
+  }
+  .section2 .container .items .img {
+    overflow: hidden;
+    margin: 0;
+  }
+  .section2 .container .items:hover .img img {
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+    border-radius: 12px;
+  }
+
+  .myBtn{
+    width: 12rem;
+    height: 1.5rem;
+    background-color: white;
+    border:1px solid rgb(31, 156, 0);
+    color: rgb(31, 156, 0);
+    font-weight: bold;
+    border-radius: 7px;
+  }
